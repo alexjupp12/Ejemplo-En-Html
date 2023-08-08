@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(103, 87, 118);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cpu {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 0, 0);
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.program {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 5px;
+}
